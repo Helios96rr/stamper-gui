@@ -1,0 +1,139 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'form.ui'
+##
+## Created by: Qt User Interface Compiler version 6.12.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QPushButton,
+    QSizePolicy, QSpinBox, QWidget)
+
+class Ui_Widget(object):
+    def setupUi(self, Widget):
+        if not Widget.objectName():
+            Widget.setObjectName(u"Widget")
+        Widget.resize(688, 314)
+        self.frame = QFrame(Widget)
+        self.frame.setObjectName(u"frame")
+        self.frame.setGeometry(QRect(10, 10, 331, 141))
+        self.frame.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame.setFrameShadow(QFrame.Shadow.Raised)
+        self.labelMedicionMedicion = QLabel(self.frame)
+        self.labelMedicionMedicion.setObjectName(u"labelMedicionMedicion")
+        self.labelMedicionMedicion.setGeometry(QRect(10, 70, 81, 20))
+        self.spinBoxMedicion = QSpinBox(self.frame)
+        self.spinBoxMedicion.setObjectName(u"spinBoxMedicion")
+        self.spinBoxMedicion.setGeometry(QRect(10, 100, 81, 31))
+        self.spinBoxMedicion.setMaximum(999)
+        self.spinBoxClase = QSpinBox(self.frame)
+        self.spinBoxClase.setObjectName(u"spinBoxClase")
+        self.spinBoxClase.setGeometry(QRect(120, 100, 91, 31))
+        self.spinBoxClase.setMaximum(999)
+        self.labelMedicionClase = QLabel(self.frame)
+        self.labelMedicionClase.setObjectName(u"labelMedicionClase")
+        self.labelMedicionClase.setGeometry(QRect(120, 70, 61, 20))
+        self.labelMedicionUnidad = QLabel(self.frame)
+        self.labelMedicionUnidad.setObjectName(u"labelMedicionUnidad")
+        self.labelMedicionUnidad.setGeometry(QRect(230, 70, 61, 20))
+        self.spinBoxUnidad = QSpinBox(self.frame)
+        self.spinBoxUnidad.setObjectName(u"spinBoxUnidad")
+        self.spinBoxUnidad.setGeometry(QRect(230, 100, 81, 29))
+        self.spinBoxUnidad.setMaximum(999)
+        self.label_Medicion = QLabel(self.frame)
+        self.label_Medicion.setObjectName(u"label_Medicion")
+        self.label_Medicion.setGeometry(QRect(130, 10, 71, 20))
+        self.labelMedicionOk = QLabel(self.frame)
+        self.labelMedicionOk.setObjectName(u"labelMedicionOk")
+        self.labelMedicionOk.setGeometry(QRect(10, 40, 141, 20))
+        self.frame_2 = QFrame(Widget)
+        self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setGeometry(QRect(350, 10, 331, 141))
+        self.frame_2.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_2.setFrameShadow(QFrame.Shadow.Raised)
+        self.labelLote1 = QLabel(self.frame_2)
+        self.labelLote1.setObjectName(u"labelLote1")
+        self.labelLote1.setGeometry(QRect(10, 70, 81, 20))
+        self.spinBoxLote1 = QSpinBox(self.frame_2)
+        self.spinBoxLote1.setObjectName(u"spinBoxLote1")
+        self.spinBoxLote1.setGeometry(QRect(10, 100, 81, 31))
+        self.spinBoxLote1.setMaximum(999)
+        self.labelLote = QLabel(self.frame_2)
+        self.labelLote.setObjectName(u"labelLote")
+        self.labelLote.setGeometry(QRect(140, 10, 71, 20))
+        self.spinBoxLote2 = QSpinBox(self.frame_2)
+        self.spinBoxLote2.setObjectName(u"spinBoxLote2")
+        self.spinBoxLote2.setGeometry(QRect(110, 100, 81, 31))
+        self.spinBoxLote2.setMaximum(999)
+        self.labelLote2 = QLabel(self.frame_2)
+        self.labelLote2.setObjectName(u"labelLote2")
+        self.labelLote2.setGeometry(QRect(110, 70, 81, 20))
+        self.labelLoteOk = QLabel(self.frame_2)
+        self.labelLoteOk.setObjectName(u"labelLoteOk")
+        self.labelLoteOk.setGeometry(QRect(10, 40, 141, 20))
+        self.frame_3 = QFrame(Widget)
+        self.frame_3.setObjectName(u"frame_3")
+        self.frame_3.setGeometry(QRect(10, 160, 331, 141))
+        self.frame_3.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_3.setFrameShadow(QFrame.Shadow.Raised)
+        self.labelSensoresOK = QLabel(self.frame_3)
+        self.labelSensoresOK.setObjectName(u"labelSensoresOK")
+        self.labelSensoresOK.setGeometry(QRect(10, 40, 141, 20))
+        self.labelSensoresActivos = QLabel(self.frame_3)
+        self.labelSensoresActivos.setObjectName(u"labelSensoresActivos")
+        self.labelSensoresActivos.setGeometry(QRect(100, 70, 121, 20))
+        self.labelBarraSensores = QLabel(self.frame_3)
+        self.labelBarraSensores.setObjectName(u"labelBarraSensores")
+        self.labelBarraSensores.setGeometry(QRect(100, 10, 131, 20))
+        self.labelConteoSensoresActivos = QLabel(self.frame_3)
+        self.labelConteoSensoresActivos.setObjectName(u"labelConteoSensoresActivos")
+        self.labelConteoSensoresActivos.setGeometry(QRect(60, 110, 201, 20))
+        self.frame_4 = QFrame(Widget)
+        self.frame_4.setObjectName(u"frame_4")
+        self.frame_4.setGeometry(QRect(350, 160, 331, 141))
+        self.frame_4.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_4.setFrameShadow(QFrame.Shadow.Raised)
+        self.pushBtnManual = QPushButton(self.frame_4)
+        self.pushBtnManual.setObjectName(u"pushBtnManual")
+        self.pushBtnManual.setGeometry(QRect(30, 70, 121, 41))
+        self.pushBtnAuto = QPushButton(self.frame_4)
+        self.pushBtnAuto.setObjectName(u"pushBtnAuto")
+        self.pushBtnAuto.setGeometry(QRect(180, 70, 131, 41))
+        self.labelModosTrabajo = QLabel(self.frame_4)
+        self.labelModosTrabajo.setObjectName(u"labelModosTrabajo")
+        self.labelModosTrabajo.setGeometry(QRect(100, 10, 131, 20))
+
+        self.retranslateUi(Widget)
+
+        QMetaObject.connectSlotsByName(Widget)
+    # setupUi
+
+    def retranslateUi(self, Widget):
+        Widget.setWindowTitle(QCoreApplication.translate("Widget", u"Widget", None))
+        self.labelMedicionMedicion.setText(QCoreApplication.translate("Widget", u"MEDICI\u00d3N", None))
+        self.labelMedicionClase.setText(QCoreApplication.translate("Widget", u"CLASE", None))
+        self.labelMedicionUnidad.setText(QCoreApplication.translate("Widget", u"UNIDAD", None))
+        self.label_Medicion.setText(QCoreApplication.translate("Widget", u"MEDICI\u00d3N", None))
+        self.labelMedicionOk.setText(QCoreApplication.translate("Widget", u"ESP32 MEDICI\u00d3N OK", None))
+        self.labelLote1.setText(QCoreApplication.translate("Widget", u"LOTE (1)", None))
+        self.labelLote.setText(QCoreApplication.translate("Widget", u"LOTE", None))
+        self.labelLote2.setText(QCoreApplication.translate("Widget", u"LOTE (2)", None))
+        self.labelLoteOk.setText(QCoreApplication.translate("Widget", u"ESP32 LOTE OK", None))
+        self.labelSensoresOK.setText(QCoreApplication.translate("Widget", u"ESP32 SENSORES OK", None))
+        self.labelSensoresActivos.setText(QCoreApplication.translate("Widget", u"SENSORES ACTIVOS", None))
+        self.labelBarraSensores.setText(QCoreApplication.translate("Widget", u"BARRA DE SENSORES", None))
+        self.labelConteoSensoresActivos.setText(QCoreApplication.translate("Widget", u"CONTEO DE SENSORES ACTIVOS", None))
+        self.pushBtnManual.setText(QCoreApplication.translate("Widget", u"MANUAL", None))
+        self.pushBtnAuto.setText(QCoreApplication.translate("Widget", u"AUTOMATICO", None))
+        self.labelModosTrabajo.setText(QCoreApplication.translate("Widget", u"MODOS DE TRABAJO", None))
+    # retranslateUi
+
