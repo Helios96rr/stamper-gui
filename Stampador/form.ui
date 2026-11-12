@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>688</width>
-    <height>314</height>
+    <width>689</width>
+    <height>309</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -258,14 +258,17 @@
    <widget class="QLabel" name="labelSensoresActivos">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>70</y>
-      <width>121</width>
+      <width>151</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
      <string>SENSORES ACTIVOS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="labelBarraSensores">
@@ -310,25 +313,12 @@
    <property name="frameShadow">
     <enum>QFrame::Shadow::Raised</enum>
    </property>
-   <widget class="QPushButton" name="pushBtnManual">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>70</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>MANUAL</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushBtnAuto">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>70</y>
-      <width>131</width>
+      <x>170</x>
+      <y>40</y>
+      <width>151</width>
       <height>41</height>
      </rect>
     </property>
@@ -339,14 +329,46 @@
    <widget class="QLabel" name="labelModosTrabajo">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>80</x>
       <y>10</y>
-      <width>131</width>
+      <width>171</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
      <string>MODOS DE TRABAJO</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelStatusMode">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>231</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>STATUS MODO DE TRABAJO</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushBtnManual">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MANUAL</string>
     </property>
    </widget>
   </widget>

@@ -3,3 +3,4 @@ name = "PySide Widgets Project"
 
 [tool.pyside6-project]
 files = ["form.ui", "opcua_manager.py", "test_opcua.py", "widget.py"]
+
